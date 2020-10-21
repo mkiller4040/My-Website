@@ -1,0 +1,51 @@
+h1{color : blue ; border : double ; border-color : orange}
+
+h2{border : solid; border-color: rgb(28, 162, 196); color : rgb(32, 88, 161)}
+
+p{color : red; border-color: slategrey;}
+
+img{border : solid; border-color: slategrey;}
+
+a{border : solid; border-color: slategrey;}
+
+body
+{
+  background-image : url("space.png"); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+/* *{border : solid ; border-color : black} */
+
+.header
+{
+  background-color: maroon;
+  margin : 50px;
+  padding : 10px;
+}
+
+.projects
+{
+  background-color: silver;
+  color : Blue; 
+  display : flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border : solid;
+}
+
+.me
+{
+  background-color: mediumturquoise;
+}
+
+.me img
+{
+  margin-left: 115px;
+}
+
+.projects:hover p
+{
+  transform: translate(0, +10%);
+  opacity: 1;
+}
